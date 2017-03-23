@@ -27,7 +27,6 @@ describe('GET /', () => {
             .expect('Content-Type', /text\/plain/)
             .expect(httpStatus.OK)
             .then((response) => {
-            console.log(response);
             assert.equal(response.text, 'healthy!');
         });
     }));

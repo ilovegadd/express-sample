@@ -59,7 +59,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator({})); // this line must be immediately after any of the bodyParser middlewares!
 
 // 静的ファイル
-// app.use(express.static(__dirname + '/../../public'));
+app.use(express.static(__dirname + '/../public'));
 
 // routers
 app.use('/', healthRouter);

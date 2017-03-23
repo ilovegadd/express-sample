@@ -1,11 +1,11 @@
 # node.js samples application using express framework
 
 # Features
+node.js simple application on multiple cloud services.
 
 # Getting Started
 
 ## infrastructures
-node.js application.
 available on azure webapps, gcp appengine or aws elastic beanstalk.
 
 
