@@ -24,7 +24,7 @@
         "dateFormat": "ddd MMM Do YYYY",
         "outputSourceFiles": true,
         "outputSourcePath": true,
-        "systemName": "佐々木興行チケットシステムAPIウェブアプリケーション",
+        "systemName": "node.js sample application using express framework",
         "footer": "",
         "navType": "vertical",
         "theme": "cosmo",

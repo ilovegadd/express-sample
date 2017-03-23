@@ -1,4 +1,4 @@
-# samples application using express framework
+# node.js samples application using express framework
 
 # Features
 
@@ -8,10 +8,12 @@
 node.js application.
 available on azure webapps, gcp appengine or aws elastic beanstalk.
 
+
 ## languages
 typescript
 
 * TypeScript(https://www.typescriptlang.org/)
+
 
 ## devlopment
 install node package modules.
@@ -49,8 +51,7 @@ set WEBSITE_NODE_DEFAULT_VERSION=**********node.js version**********
 set WEBSITE_TIME_ZONE=Tokyo Standard Time
 ```
 
-
-# tslint
+## tslint
 
 * [tslint](https://github.com/palantir/tslint)
 * [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
@@ -58,13 +59,17 @@ set WEBSITE_TIME_ZONE=Tokyo Standard Time
 You can use a command `npm run check`.
 
 
-# clean
+## clean
 `npm run clean`
 
 
-# test
+## test
 You can use a command `npm test`.
 
 
-# versioning
+## versioning
 You can use a command `npm version patch -f -m "enter your commit comment..."`.
+
+
+# License
+MIT
