@@ -15,8 +15,9 @@
     "express-validator": "^3.1.2",
     "helmet": "^3.5.0",
     "http-status": "^1.0.1",
-    "log4js": "^1.1.0",
-    "moment": "^2.18.0"
+    "log4js": "^2.0.0",
+    "moment": "^2.18.0",
+    "snyk": "^1.41.1"
   },
   "description": "node.js sample application using express framework.",
   "devDependencies": {
@@ -59,7 +60,10 @@
     "test": "npm run check && mocha --no-timeouts --recursive",
     "preversion": "npm run clean && npm run build && npm test",
     "version": "git add -A",
-    "postversion": "git push origin"
+    "postversion": "git push origin",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "version": "1.0.2"
+  "version": "1.0.2",
+  "snyk": true
 }
